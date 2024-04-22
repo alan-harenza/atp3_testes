@@ -25,7 +25,7 @@ time.sleep(3)
 browser.find_element(By.NAME, 'btn_pesquisar').click()
 # tempo de espera para garantia de tudo carregar
 time.sleep(4)
-# retirando a informacao deo enderco
+# retirando a informacao do endereco
 endereco = browser.find_element(By.XPATH, "/html/body/main/form/div[1]/div[2]/div/div[4]/table/tbody/tr/td[1]").text
 bairro = browser.find_element(By.XPATH, "/html/body/main/form/div[1]/div[2]/div/div[4]/table/tbody/tr/td[2]").text
 cidade = browser.find_element(By.XPATH, "/html/body/main/form/div[1]/div[2]/div/div[4]/table/tbody/tr/td[3]").text
